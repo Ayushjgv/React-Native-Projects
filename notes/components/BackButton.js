@@ -1,0 +1,30 @@
+import { StyleSheet, Text, View } from 'react-native'
+import React from 'react'
+import { Button } from 'react-native-web'
+import { ScreenType } from '../Constants/Constants'
+
+const BackButton = ({onButtonClick}) => {
+  return (
+    <view style={styles.container}>
+        <View style={styles.button}>
+            <Button onPress={()=>onButtonClick(ScreenType.home)} title='Back'/>
+        </View>
+    </view>
+  )
+}
+
+export default BackButton
+
+const styles = StyleSheet.create({
+    container:{
+        flexDirection:'row',
+        justifyContent:'flex-start',
+        alignItems:'flex-start',
+        color:'black'
+    },
+    button:{
+        textAlign:'left',
+        margin:10,
+        color:'black'
+    }
+})
