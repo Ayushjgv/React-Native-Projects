@@ -1,6 +1,5 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View ,FlatList} from 'react-native'
 import React from 'react'
-import { FlatList } from 'react-native-web'
 import ListItem from '../components/ListItem'
 
 const AllNotesScreen = ({notes}) => {

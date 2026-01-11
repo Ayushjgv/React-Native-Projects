@@ -1,15 +1,14 @@
-import { Platform, StyleSheet, Text, View } from 'react-native'
-import { ImageBackground, SafeAreaView } from 'react-native-web'
+import { Platform, StyleSheet, Text, View,ImageBackground,View } from 'react-native'
 // import { SafeAreaView } from 'react-native/types_generated/index'
 import React from 'react'
 
 const Header = () => {
   return (
-    <SafeAreaView style={styles.headerContainer} > 
+    <View style={styles.headerContainer} > 
         <Text style={styles.headerTitle}>
             Hello World !
         </Text>
-    </SafeAreaView>
+    </View>
   )
 }
 

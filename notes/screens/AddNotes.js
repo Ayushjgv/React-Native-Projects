@@ -1,6 +1,5 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View,Button,TextInput } from 'react-native'
 import React,{useState} from 'react'
-import { Button, TextInput } from 'react-native-web'
 import { ScreenType } from '../Constants/Constants';
 
 const AddNotes = ({onSave,onExit}) => {

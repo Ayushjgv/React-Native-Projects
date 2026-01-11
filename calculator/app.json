@@ -4,7 +4,7 @@
     "slug": "calculator",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icoon.avif",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
@@ -20,10 +20,16 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.ayushprajapat456.calculator"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "873214f0-02c3-424c-bd44-10c3029a776a"
+      }
     }
   }
 }

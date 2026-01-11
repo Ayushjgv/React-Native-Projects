@@ -1,15 +1,14 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View,Button } from 'react-native'
 import React from 'react'
-import { Button } from 'react-native-web'
 import { ScreenType } from '../Constants/Constants'
 
 const BackButton = ({onButtonClick}) => {
   return (
-    <view style={styles.container}>
+    <View style={styles.container}>
         <View style={styles.button}>
             <Button onPress={()=>onButtonClick(ScreenType.home)} title='Back'/>
         </View>
-    </view>
+    </View>
   )
 }
 
